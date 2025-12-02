@@ -32,3 +32,38 @@ Auto-restart
 - Timers / Handlers – controlling object updates
 - XML Layouts – UI setup (start screen, buttons, etc.)
 
+## How to Play
+
+1. Tap the screen to make the bird flap upward.
+
+2. Avoid the pipes.
+
+3. Each set of pipes you pass earns you 1 point.
+
+4. If you hit a pipe or the ground → Game Over.
+
+5. Tap again to play again.
+
+## How It Works (Quick Technical Overview)
+
+A game loop continuously updates positions and redraws the screen.
+
+The bird uses basic physics — gravity pulls down, tap adds upward velocity.
+
+Pipes move from right to left, and new ones are generated at intervals.
+
+Collision detection checks the bird’s bounding box against pipes.
+
+Score increments when the bird passes a pipe safely.
+
+## Setup Instructions
+
+Clone or download the repository
+Open with Android Studio
+Let Gradle sync
+
+Run the application on:
+  - An Android device, or An Android emulator
+
+## Author
+Makoma I. Pilusa
